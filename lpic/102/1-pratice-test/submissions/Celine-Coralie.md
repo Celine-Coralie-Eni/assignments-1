@@ -6,7 +6,7 @@
 
 4. ServerName:Allow
 
-5. ::1
+5. ::1 
 
 6. -R
 
