@@ -51,11 +51,16 @@
     -To create a soft link you input the command ```ln -s file.txt softlink.txt```
 
 23. auto eth0
+ 
     iface eth0 inet static
-    address 192.168.1.100
+    
+    address 192.168.0.155
+    
     netmask 255.255.255.0
-    gateway 192.168.1.1
-    dns-nameservers 8.8.8.8 8.8.4.
+    
+    gateway 192.168.0.1
+
+    dns-nameservers 127.0.0.53
 
 24. ```chmod -R u=rw,g=r,o=r /home/user``` for files.
 
